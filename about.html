@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ስለ ትምህርት ቤታችን - መናናደ</title>
+    <title>ስለ ትምህርት ቤታችን - መሰናዶ</title>
     <style>
         body {
             font-family: 'Segoe UI', Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f6f9;
+            /* የትምህርት ቤቱን በር ፎቶ ባክግራውንድ ለማድረግ እና ጽሑፉ እንዲታይ ትንሽ ለማፈዘዝ የተሰራ */
+            background-image: linear-gradient(rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), url('images.jpeg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            background-repeat: no-repeat;
             color: #333;
             line-height: 1.6;
         }
@@ -23,7 +28,6 @@
             margin: 0;
             font-size: 28px;
         }
-        /* ማውጫውን በአንድ መስመር ለማድረግ የተሰራ CSS */
         nav {
             background-color: #2c3e50;
             padding: 10px 0;
@@ -50,9 +54,9 @@
             max-width: 800px;
             margin: 30px auto;
             padding: 20px;
-            background: white;
+            background: rgba(255, 255, 255, 0.95); /* ሳጥኑ ነጭ ሆኖ ከበስተጀርባው ፎቶው በጥቂቱ እንዲታይ ያደርጋል */
             border-radius: 8px;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
         }
         h2 {
             color: #27ae60;
@@ -79,13 +83,14 @@
         <ul>
             <li><a href="index.html">ዋና ገፅ</a></li>
             <li><a href="about.html">ስለ ትምህርት ቤታችን</a></li>
+            <li><a href="group.html">የግሩፕ አባላት</a></li>
             <li><a href="contact.html">እኛን ለማግኘት</a></li>
         </ul>
     </nav>
 
     <div class="container">
         <h2>ስለ ትምህርት ቤታችን አጭር መግለጫ</h2>
-        <p>እንኳን ወደ መሰናዶ ሁለተኛ ደረጃ ትምህርት ቤት የክለሳ ገጽ በሰላም መጡ። ትምህርት ቤታችን ተማሪዎችን በዕውቀት እና በበጎ ሥነ-ምግባር ኮትኩቶ ለማሳደግ የሚጋጋ የዕውቀት ማዕከል ነው።</p>
+        <p>እንኳን ወደ መሰናዶ ሁለተኛ ደረጃ ትምህርት ቤት የክለሳ ገጽ በሰላም መጡ። ትምህርት ቤታችን ተማሪዎችን በዕውቀት እና በበጎ ሥነ-ምግባር ኮትኩቶ ለማሳደግ የሚተጋ የዕውቀት ማዕከል ነው።</p>
         
         <h2>ራዕይ እና ተልዕኮ</h2>
         <p>ብቁ፣ ተወዳዳሪ እና ሀገራቸውን የሚወዱ ዜጋዎችን ማፍራት የዘወትር ተግባራችን ነው። ዘመናዊ የቴክኖሎጂ አጠቃቀምን ከትምህርት ሥርዓቱ ጋር በማዋሃድ የተሻለ የመማር ማስተማር አካባቢ እንፈጥራለን።</p>
